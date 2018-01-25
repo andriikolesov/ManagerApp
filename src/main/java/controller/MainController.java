@@ -9,7 +9,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -20,7 +19,6 @@ import java.util.ResourceBundle;
 public class MainController implements Initializable {
 
     @FXML
-
     private TextField txtName;
     @FXML
     private TextField txtMail;
@@ -39,7 +37,6 @@ public class MainController implements Initializable {
         btnOk.setOnAction(event -> printSelectedItem());
 //        btnOk.setOnAction(event -> printName());
     }
-
 
     private void printSelectedItem() {
 
