@@ -79,7 +79,4 @@ public class LoginController implements Initializable {
             txtName.setText("wrong");
         }
     }
-
 }
-
-
